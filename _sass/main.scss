@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+// --------------------------------------------------------------------------------------- //
+// Bulma variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+$blue: #06bcef;
+$pink: #ff8080;
+$pink-invert: #fff;
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+@import "../node_modules/bulma/bulma";
+
+// --------------------------------------------------------------------------------------- //
+// Typography //
+
+$primary-font: 'Patua One', cursive;
+$infoheading-spacing: 0.8em;
+
+
+// --------------------------------------------------------------------------------------- //
+
+h1 {
+    font-family: $primary-font;
+}
+
+.info-heading {
+    font-family: $primary-font;
+    padding-bottom: $infoheading-spacing
+}
+
+.banner {
+    background-image: url("../assets/images/experiencevr.jpg");
+    height: 28em;
+}
+
+
