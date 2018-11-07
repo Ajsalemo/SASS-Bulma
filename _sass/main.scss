@@ -1,36 +1,68 @@
+// --------------------------------------------------------------------------------------- //
+// Imports //
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 
 // --------------------------------------------------------------------------------------- //
 // Bulma variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
-
-$blue: #06bcef;
-$pink: #ff8080;
-$pink-invert: #fff;
-$family-sans-serif: "Helvetica", "Arial", sans-serif;
-
-$primary: $pink;
-$primary-invert: $pink-invert;
-
 @import "../node_modules/bulma/bulma";
 
 // --------------------------------------------------------------------------------------- //
 // Typography //
 
-$primary-font: 'Patua One', cursive;
-$infoheading-spacing: 0.8em;
+$font-primary: 'Patua One', cursive;
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
 
+// Font Sizes //
+$font-size-primary: 1em;
+
+// Font Colors //
+$color-primary: #278da4;
+$color-secondary: #fff;
+$color-standard: #000;
+
+$btn-background:#5edcf8;
+
+// --------------------------------------------------------------------------------------- //
+// Padding or margins
+
+$infoheading-spacing: 0.8em;
 
 // --------------------------------------------------------------------------------------- //
 
 h1 {
-    font-family: $primary-font;
+    font-family: $font-primary;
+}
+
+.button {
+    margin-top: $infoheading-spacing;
+    &:hover {
+        color: $color-secondary;
+    }
+    &-main {
+        background-color: rgb(196, 64, 64);
+    }
+    &-secondary {
+        background-color: $btn-background;
+    }
+}
+
+.heading {
+    p {
+        font-size: $font-size-primary;
+    }
+}
+
+p,
+.navbar-item {
+    color: $color-standard;
 }
 
 .info-heading {
-    font-family: $primary-font;
-    padding-bottom: $infoheading-spacing
+    font-family: $font-primary;
+    padding-bottom: $infoheading-spacing;
+    color: $color-primary;
 }
 
 .banner {
