@@ -22,12 +22,13 @@ $color-primary: #278da4;
 $color-secondary: #fff;
 $color-standard: #000;
 
-$btn-background:#5edcf8;
+$btn-background:#a2e7f7;
+$footer-background:#c0f0fc;
 
 // --------------------------------------------------------------------------------------- //
 // Padding or margins
 
-$infoheading-spacing: 0.8em;
+$info-spacing: 0.5em;
 
 // --------------------------------------------------------------------------------------- //
 
@@ -36,12 +37,13 @@ h1 {
 }
 
 .button {
-    margin-top: $infoheading-spacing;
+    margin-top: $info-spacing;
     &:hover {
         color: $color-secondary;
     }
     &-main {
         background-color: rgb(196, 64, 64);
+        color: $color-secondary;
     }
     &-secondary {
         background-color: $btn-background;
@@ -61,7 +63,6 @@ p,
 
 .info-heading {
     font-family: $font-primary;
-    padding-bottom: $infoheading-spacing;
     color: $color-primary;
 }
 
@@ -70,4 +71,12 @@ p,
     height: 28em;
 }
 
+.fas, 
+.fab {
+    margin: $info-spacing;
+}
+
+.footer {
+    background-color: $footer-background;
+}
 

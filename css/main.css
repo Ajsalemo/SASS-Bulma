@@ -6509,13 +6509,14 @@ h1 {
   font-family: "Patua One", cursive; }
 
 .button {
-  margin-top: 0.8em; }
+  margin-top: 0.5em; }
   .button:hover {
     color: #fff; }
   .button-main {
-    background-color: #c44040; }
+    background-color: #c44040;
+    color: #fff; }
   .button-secondary {
-    background-color: #5edcf8; }
+    background-color: #a2e7f7; }
 
 .heading p {
   font-size: 1em; }
@@ -6526,9 +6527,15 @@ p,
 
 .info-heading {
   font-family: "Patua One", cursive;
-  padding-bottom: 0.8em;
   color: #278da4; }
 
 .banner {
   background-image: url("../assets/images/experiencevr.jpg");
   height: 28em; }
+
+.fas,
+.fab {
+  margin: 0.5em; }
+
+.footer {
+  background-color: #c0f0fc; }
