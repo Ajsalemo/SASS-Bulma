@@ -38,8 +38,6 @@ p,
 }
 
 .hero {
-    position: relative;
-
     img {
         width: 8em;
         height: 8em;
@@ -47,14 +45,8 @@ p,
         border: 6px solid #fff;
     }
 
-    .image-div {
-        position: absolute;
-        top: 23em;  
-    }
-
-    .has-image-centered {
-        margin-left: auto;
-        margin-right: auto;
+    .image-column {
+        margin-top: -6em;
     }
 }
 

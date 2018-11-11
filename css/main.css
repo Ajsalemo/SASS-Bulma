@@ -8491,22 +8491,14 @@ p,
   color: #000;
 }
 
-.hero {
-  position: relative;
-}
 .hero img {
   width: 8em;
   height: 8em;
   border-radius: 50%;
   border: 6px solid #fff;
 }
-.hero .image-div {
-  position: absolute;
-  top: 23em;
-}
-.hero .has-image-centered {
-  margin-left: auto;
-  margin-right: auto;
+.hero .image-column {
+  margin-top: -6em;
 }
 
 .banner {
